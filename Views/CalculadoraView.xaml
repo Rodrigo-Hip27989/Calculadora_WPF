@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF_Calculadora"
         xmlns:viewmodel="clr-namespace:WPF_Calculadora.ViewModels"
         mc:Ignorable="d"
-        Title="Calculadora" Height="300" Width="400">
+        Title="Calculadora" Height="320" Width="420">
     <Window.Resources>
         <viewmodel:CalculadoraViewModel x:Key="CalculadoraViewModel" />
     </Window.Resources>
