@@ -103,7 +103,7 @@ namespace WPF_Calculadora.ViewModels
         private void Reiniciar_Historial_De_Operaciones()
         {
             History__Operations = new MathOperationCollection();
-            current__Operation = new Operation(getRandomName(), "0");
+            current__Operation = new Operation(GetRandomName(), "0");
         }
         private void Eliminar_Del_Historial_De_Operaciones()
         {
@@ -118,7 +118,7 @@ namespace WPF_Calculadora.ViewModels
         }
         private void Nuevo_Elemento_Para_Agregar_Al_Historial()
         {
-            Current__Operation = new Operation(getRandomName(), "0");
+            Current__Operation = new Operation(GetRandomName(), "0");
         }
         private void Resolver_Operacion_Actual()
         {
@@ -143,7 +143,7 @@ namespace WPF_Calculadora.ViewModels
             else
             {
                 //REFERENCIA A UN ELEMENTO NULO O VACIO
-                current__Operation = new Operation(getRandomName(), "0");
+                current__Operation = new Operation(GetRandomName(), "0");
             }
             //ACTUALIZA LOS VALORES MOSTRADOS EN PANTALLA
             OnPropertyChanged("Current__Operation");
@@ -168,13 +168,12 @@ namespace WPF_Calculadora.ViewModels
                 if (History__Operations[i].Nombre.Equals(searchOperation.Nombre))
                 {
                     indexOfOperation = i;
-                    Operation operationTemp = History__Operations[i];
                     break;
                 }
             }
             return indexOfOperation;
         }
-        public string getRandomName()
+        public string GetRandomName()
         {   //GENERA VALORES STRING
             return (Guid.NewGuid().ToString().Substring(0, 3));
         }

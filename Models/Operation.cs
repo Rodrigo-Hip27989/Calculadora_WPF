@@ -15,10 +15,9 @@ namespace WPF_Calculadora.Models
 
     public class Operation
     {
-        string nombre;
-        string expresion;
-        double resultado;
-        private ExpressionParser parser = new ExpressionParser();
+        private string nombre;
+        private string expresion;
+        private double resultado;
         public Operation(string nombre, string expresion)
         {
             Nombre = nombre;
@@ -48,6 +47,7 @@ namespace WPF_Calculadora.Models
                 {
                     if (OperationValidator.IsAValidLexicon(value))
                     {
+                        ExpressionParser parser = new ExpressionParser();
                         this.expresion = value;
                         this.Resultado = parser.Parse(value);
                     }
