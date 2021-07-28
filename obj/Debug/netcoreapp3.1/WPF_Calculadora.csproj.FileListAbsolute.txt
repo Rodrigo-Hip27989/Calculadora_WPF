@@ -5,7 +5,6 @@ C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\bin\Debug\netcoreapp3.1\WP
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\bin\Debug\netcoreapp3.1\WPF_Calculadora.dll
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\bin\Debug\netcoreapp3.1\WPF_Calculadora.pdb
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\bin\Debug\netcoreapp3.1\info.lundin.math.dll
-C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WPF_Calculadora.csprojAssemblyReference.cache
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\Views\CalculadoraView.g.cs
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
@@ -20,3 +19,4 @@ C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WP
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WPF_Calculadora.dll
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WPF_Calculadora.pdb
 C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WPF_Calculadora.genruntimeconfig.cache
+C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\obj\Debug\netcoreapp3.1\WPF_Calculadora.csproj.AssemblyReference.cache
