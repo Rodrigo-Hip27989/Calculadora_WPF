@@ -1,6 +1,7 @@
 bin/
 obj/
 .vs/
+AssemblyInfo.cs
 WPF_Calculadora.csproj
 WPF_Calculadora.csproj.user
 WPF_Calculadora.sln

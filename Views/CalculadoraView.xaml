@@ -24,9 +24,9 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBox Grid.Row="0" Grid.ColumnSpan="7" Text="{Binding Path=Current__Operation.Expresion}" TextWrapping="Wrap" TextAlignment="Right" Background="WhiteSmoke"/>
+        <TextBox Grid.Row="0" Grid.ColumnSpan="7" Text="{Binding Path=Current__Operation.Expresion, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" TextAlignment="Right" Background="WhiteSmoke"/>
         <Label Grid.Row="1" Grid.Column="0" Content="Etiqueta"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=Current__Operation.Nombre}" TextWrapping="Wrap" Background="WhiteSmoke"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=Current__Operation.Nombre, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Background="WhiteSmoke"/>
         <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="5" Content="{Binding Path=Current__Operation.Resultado}" HorizontalAlignment="Right"/>
         <DataGrid Grid.Row="3" Grid.ColumnSpan="7" ItemsSource="{Binding Path=History__Operations}" SelectedItem="{Binding Path=Current__Operation}" ColumnWidth="*" IsReadOnly="True" CanUserSortColumns="True" CanUserResizeRows="True"/>
         <!-- Funcionalidades -->
