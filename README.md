@@ -1,6 +1,10 @@
-![Screenshot_1](C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\img/Screenshot_1.png)
+### Calculadora estilo SpeedCrunch
 
-![Screenshot_1](C:\Users\rodrigo\source\repos\Pruebas\WPF_Calculadora\img/Screenshot_2.png)
+### Ejemplos
+
+![Screenshot_1](img/Screenshot_1.png)
+
+![Screenshot_1](img/Screenshot_2.png)
 
 
 
