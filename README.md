@@ -1,6 +1,7 @@
-### Calculadora estilo SpeedCrunch
 
-### Ejemplos
+## Calculadora estilo SpeedCrunch
+
+### Screenshoot
 
 ![Screenshot_1](img/Screenshot_1.png)
 
