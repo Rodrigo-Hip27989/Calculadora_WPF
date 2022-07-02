@@ -1,7 +1,7 @@
 
 ## Calculadora estilo SpeedCrunch
 
-### Screenshoot
+### Screenshots
 
 ![Screenshot_1](img/Screenshot_1.png)
 
